@@ -1,0 +1,14 @@
+GET http://localhost:3000/todos/1/
+###
+GET http://localhost:3000/agenda/?date=2021-04-04
+
+###
+Content-Type: application/json
+
+
+{
+  "id": 10,
+  "todo": "Finalize event theme",
+  "priority": "LOW",
+  "status": "TO DO"
+}
