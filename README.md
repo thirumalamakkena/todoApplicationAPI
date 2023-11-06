@@ -25,10 +25,6 @@ Write APIs to perform operations on the table `todo`, with the following columns
     - The user may request with due date value as `2021-1-21`, format the date to `2021-01-21` and perform Create, Read, Update operations on the database.
 </MultiLineNote>
 
-<MultiLineQuickTip>
-
-Use `date-fns` format function to format the date. Refer to the documentation [link](https://date-fns.org/v2.19.0/docs/Getting-Started) for the usage of the `format` function.
-</MultiLineQuickTip>
 
 ### Invalid scenarios for all APIs
 
